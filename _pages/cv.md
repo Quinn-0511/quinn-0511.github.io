@@ -17,15 +17,20 @@ Courses
 * Database Development
 * Reinforcement Learning
 * Machine Learning for Trading
+
 Programming
 ======
+
 * Java
   * Android Application Delveopment
 * Python
-* JavaScript
-  * D3
+* MySQL
 * MATLAB
-
+* Visualization
+  * JavaScript
+  * PHP
+  * HTML
+  * CSS
 Frameworks and tools
 ======
 * TensorFlow
