@@ -1,11 +1,30 @@
 ---
-title: 'Future Blog Post'
-date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+title: 'Deploy application on Google App Engine '
+date: 2019-05-30
+permalink: /posts/2199-01-01-future-post
 tags:
-  - cool posts
+  - Google
   - category1
   - category2
 ---
 
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+install Cloud SDK:
+
+$ curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-240.0.0-linux-x86_64.tar.gz
+
+tar zxvf [ARCHIVE_FILE] google-cloud-sdk
+./google-cloud-sdk/install.sh
+gcloud init
+
+
+
+! gcloud deploy:
+cd fdmg-236003
+pip install virtualenv
+virtualenv virtual
+source virtual/bin/activate
+pip install flask
+pip install -t lib -r requirements.txt
+gcloud app deploy
+
+gcloud components update --version 240.0.0

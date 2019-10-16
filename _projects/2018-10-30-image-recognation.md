@@ -14,8 +14,8 @@ date: 2018-10-30
 
 **Images**
 
-![Sample0](Sample0.png)
-![Sample0](Sample1.png)
+![Sample0](http://quinn-0511.github.io/images/Sample0.png)
+![Sample0](http://quinn-0511.github.io/images/Sample1.png)
 As shown in the above figure, the green bounding box is manually label while the red bounding box is recognized by the trained model.
 
 **Tools**
